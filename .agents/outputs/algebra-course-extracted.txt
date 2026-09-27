@@ -1,0 +1,813 @@
+Algebra 1 — A Four-Week Course · 1
+Algebra 1 — A Four-Week Course
+Every lecture (short version) plus sample homework and exam problems
+with an answer key.
+Week 1 — Expressions and linear equations
+Real numbers; order of operations and expressions; properties and simplifying; one-
+and two-step equations; multi-step equations; literal equations and formulas; ratios,
+proportions, and percent.
+1.1 Real numbers and operations
+The number system algebra is built on.
+Real numbers and operations
+Algebra is arithmetic with letters standing in for numbers, so it begins with the
+numbers themselves. The real numbers include the natural numbers 1, 2, 3, ..., the
+integers (adding 0 and the negatives), the rationals (every fraction p/q with q ≠ 0),
+and the irrationals such as √2 and π, whose decimals never end or repeat.
+Signed numbers
+The absolute value |a| is the distance from a to 0 on the number line, so |−7| = |7| =
+7. Adding a negative is subtracting, and subtracting a negative is adding. For products
+and quotients:
+(−)(−) = (+), (−)(+) = (−).
+Thus (−3)(−4) = 12 and −20 / 4 = −5. Division by zero is undefined: no number times 0
+gives 5.
+Opposites and reciprocals
+Every number a has an opposite −a with a + (−a) = 0, and every nonzero number has
+a reciprocal 1/a with a · (1/a) = 1. Subtraction is adding the opposite; division is
+multiplying by the reciprocal. These two facts are the engine of equation solving in
+Lecture 1.4.
+A real example
+In 628 CE the Indian mathematician Brahmagupta wrote the Brahmasphutasiddhanta,
+the first text to treat zero as a number and to state rules for negatives. He called
+positive numbers fortunes and negative numbers debts: "a debt minus zero is a debt,"
+"the product of two debts is a fortune." European mathematicians were still calling
+negative solutions "absurd" a thousand years later.
+
+Algebra 1 — A Four-Week Course · 2
+1.2 Order of operations and algebraic expressions
+Reading an expression the only way it can be read.
+Order of operations and algebraic expressions
+An algebraic expression combines numbers, variables, and operations: 3x + 5, 2(a −
+b)2. To evaluate one, substitute values for the variables and compute.
+The order of operations
+A single expression must have a single value, so a convention fixes the order:
+•
+Grouping symbols first — parentheses, brackets, fraction bars, radicals;
+•
+then exponents;
+•
+then multiplication and division, left to right;
+•
+then addition and subtraction, left to right.
+3 + 4 · 22 = 3 + 4 · 4 = 19.
+Translating words into symbols
+"Five less than twice a number" is 2n − 5, not 5 − 2n. "The square of the sum of x and
+y" is (x + y)2; "the sum of the squares" is x2 + y2. Most word-problem errors are
+translation errors, made before any algebra begins.
+A real example
+In 2019 the expression 8 ÷ 2(2 + 2) went viral, splitting millions of people between 16
+and 1. Strict left-to-right gives 16; treating 2(2 + 2) as a single unit gives 1, and some
+older textbooks and calculators did exactly that. The dispute is a notation failure, not
+an arithmetic one — which is why programming languages require an explicit
+multiplication sign and why careful writers use parentheses.
+1.3 Properties and simplifying expressions
+The rules that let you rewrite an expression without changing it.
+Properties and simplifying expressions
+Two expressions are equivalent if they give the same value for every value of the
+variables. A few properties generate every legal rewrite.
+The basic properties
+•
+Commutative: a + b = b + a and ab = ba;
+•
+Associative: (a + b) + c = a + (b + c) and (ab)c = a(bc);
+•
+Identity: a + 0 = a and a · 1 = a;
+•
+Distributive: multiplication spreads over addition.
+a(b + c) = ab + ac.
+
+Algebra 1 — A Four-Week Course · 3
+Combining like terms
+Like terms have the same variables raised to the same powers: 4x and −7x are like, 4x
+and 4x2 are not. The distributive property run backwards combines them: 4x − 7x = (4
+− 7)x = −3x. So 3(2x − 5) − (x − 4) = 6x − 15 − x + 4 = 5x − 11. A minus sign in front
+of parentheses distributes −1 to every term inside.
+A real example
+Around 300 BCE Euclid's Elements, Book II, Proposition 1, proved the distributive law
+as geometry: a rectangle of height a cut into strips of widths b, c, and d has area equal
+to the sum of the strips' areas, a(b + c + d) = ab + ac + ad. Greek mathematicians had
+no algebraic notation, so every identity in this lecture was, for them, a statement about
+areas.
+1.4 Solving one- and two-step equations
+Undoing operations while keeping the balance.
+Solving one- and two-step equations
+An equation asserts that two expressions are equal. A solution is a value of the
+variable that makes the assertion true. Solving means producing simpler equivalent
+equations until the variable stands alone.
+The properties of equality
+Whatever you do to one side, do to the other: add, subtract, multiply, or divide (by a
+nonzero number) on both sides and the solutions are unchanged.
+a = b ⇒ a + c = b + c and ac = bc.
+Two-step equations
+Undo operations in reverse order: addition and subtraction first, then multiplication
+and division. For 3x − 7 = 11, add 7 to get 3x = 18, then divide by 3 to get x = 6. Check
+by substituting: 3(6) − 7 = 11. Checking catches arithmetic errors at a cost of seconds.
+A real example
+The Rhind Mathematical Papyrus, copied by the Egyptian scribe Ahmes around 1550
+BCE, contains "aha" problems — the first recorded linear equations. Problem 24 reads:
+a quantity and its seventh, added together, become 19. In modern symbols x + x/7 =
+19, so 8x/7 = 19 and x = 16 5/8. Ahmes reached the same answer by guessing 7, seeing
+it gave 8, and scaling up — the method of false position.
+
+Algebra 1 — A Four-Week Course · 4
+1.5 Multi-step equations
+Variables on both sides, grouping, and fractions.
+Multi-step equations
+Harder equations need several moves, but the plan never changes: simplify each side,
+collect the variable on one side, then isolate it.
+The procedure
+•
+Clear fractions by multiplying both sides by the least common denominator.
+•
+Distribute and combine like terms on each side.
+•
+Add or subtract to move variable terms to one side and constants to the other.
+•
+Divide by the coefficient, then check.
+5x + 3 = 2x − 9 ⇒ 3x = −12 ⇒ x = −4.
+No solution and infinitely many
+Sometimes the variable cancels. If a false statement remains (2x + 1 = 2x + 5 gives 1 =
+5), there is no solution. If a true statement remains (2(x + 3) = 2x + 6 gives 6 = 6),
+the equation is an identity and every real number is a solution.
+A real example
+A puzzle from the Greek Anthology, around 500 CE, gives the life of the mathematician
+Diophantus: boyhood lasted 1/6 of his life, youth 1/12 more, then 1/7 more before
+marriage; a son was born 5 years later and lived half as long as his father, who died 4
+years after the son. So x = x/6 + x/12 + x/7 + 5 + x/2 + 4. Multiplying by 84 clears the
+fractions: 84x = 75x + 756, so x = 84.
+1.6 Literal equations and formulas
+Solving for one letter in terms of the others.
+Literal equations and formulas
+A literal equation has several variables. Solving it for one of them uses exactly the
+moves of Lecture 1.5, treating the other letters as if they were numbers.
+Rearranging formulas
+Distance equals rate times time, d = rt, solved for t gives t = d/r. The area of a
+trapezoid A = ½h(b1 + b2) solved for h gives h = 2A/(b1 + b2). Temperature:
+F = (9/5)C + 32 ⇒ C = (5/9)(F − 32).
+Units as a check
+Units obey algebra too. If d is in miles and r in miles per hour, then d/r has units miles
+÷ (miles/hour) = hours. A rearranged formula whose units come out wrong has been
+rearranged wrongly.
+
+Algebra 1 — A Four-Week Course · 5
+A real example
+In 1983 Air Canada Flight 143, a new Boeing 767, ran out of fuel at 41,000 feet over
+Manitoba. The crew needed 22,300 kilograms of fuel and computed the volume to load
+from volume = mass ÷ density, but used 1.77 — the density in pounds per liter, not
+kilograms per liter. The plane took off with less than half the fuel required. The captain
+glided it to a safe landing at a former air base in Gimli.
+1.7 Ratios, proportions, and percent
+Comparing quantities by division.
+Ratios, proportions, and percent
+A ratio compares two quantities by division, a : b or a/b. A rate is a ratio of quantities
+in different units, such as 60 miles per hour. A proportion states that two ratios are
+equal.
+Solving proportions
+Multiplying both sides of a/b = c/d by bd gives the cross-product rule:
+a/b = c/d ⇒ ad = bc.
+If 3 pounds cost $7.50, then 3/7.50 = 8/x gives 3x = 60 and x = $20 for 8 pounds.
+Percent
+Percent means per hundred: 35% = 0.35. The percent equation is part = percent ×
+whole. Percent change is (new − old)/old. A 20% increase followed by a 20% decrease
+is not a return to start: 1.2 × 0.8 = 0.96, a net loss of 4%.
+A real example
+Around 240 BCE Eratosthenes learned that at noon on the summer solstice the sun
+shone straight down a well at Syene, while at Alexandria, about 5,000 stadia north, it
+cast a shadow at an angle of about 7.2°. Since 7.2° is 1/50 of a full circle, the
+proportion 7.2/360 = 5,000/C gives Earth's circumference as 250,000 stadia — close to
+the true value, from one shadow and one ratio.
+
+Algebra 1 — A Four-Week Course · 6
+Week 2 — Inequalities, functions, and
+linear graphs
+Linear inequalities; compound and absolute-value statements; relations and functions;
+slope; slope-intercept and point-slope forms; standard form and parallel and
+perpendicular lines; linear models.
+2.1 Linear inequalities
+Solving when the answer is a range, not a number.
+Linear inequalities
+An inequality compares expressions with <, >, ≤, or ≥. Its solution is usually an
+infinite set of numbers, drawn as a ray on the number line — an open circle for < or >,
+a closed circle for ≤ or ≥.
+The one new rule
+Inequalities are solved like equations, with one exception: multiplying or dividing both
+sides by a negative number reverses the direction of the inequality.
+−3x > 12 ⇒ x < −4.
+The reason: −3 < 2, but multiplying by −1 gives 3 > −2. Negation reflects the number
+line and reverses order.
+Interval notation
+The set x < −4 is written (−∞, −4); the set x ≥ 2 is [2, ∞). Parentheses exclude an
+endpoint and brackets include it. Word problems use "at least" for ≥ and "at most" for
+≤.
+A real example
+The symbols < and > first appeared in print in 1631, in Artis Analyticae Praxis, a book
+by the English mathematician Thomas Harriot published ten years after his death.
+Harriot, who had sailed to Roanoke as Walter Raleigh's scientific adviser, also drew the
+moon through a telescope months before Galileo. The ≤ and ≥ signs came a century
+later, from the French mathematician Pierre Bouguer.
+2.2 Compound and absolute-value statements
+Two conditions at once, and distance from a target.
+Compound and absolute-value statements
+A compound inequality joins two inequalities. "And" requires both, giving an overlap
+such as −2 < x ≤ 5. "Or" requires at least one, giving two pieces such as x < −1 or x >
+3.
+
+Algebra 1 — A Four-Week Course · 7
+Absolute-value equations
+Since |x| is distance from 0, |x − c| is distance from c. An equation |A| = k with k > 0
+splits into two cases, A = k or A = −k. So |2x − 1| = 7 gives x = 4 or x = −3. If k < 0
+there is no solution.
+Absolute-value inequalities
+Distance less than k is an "and"; distance greater than k is an "or":
+|A| < k ⇔ −k < A < k, |A| > k ⇔ A < −k or A > k.
+Thus |x − 10| ≤ 3 means 7 ≤ x ≤ 13: every number within 3 of 10.
+A real example
+Manufacturing runs on absolute-value inequalities. A shaft specified as 25.00 ± 0.05
+millimeters must satisfy |d − 25.00| ≤ 0.05. Such tolerances make interchangeable
+parts possible — an idea the French gunsmith Honoré Blanc demonstrated in 1785 by
+assembling musket locks from randomly chosen parts, a show that so impressed
+Thomas Jefferson that he urged it on the United States.
+2.3 Relations and functions
+Rules that assign each input exactly one output.
+Relations and functions
+A relation is any set of input–output pairs. A function is a relation in which each input
+has exactly one output. The set of inputs is the domain; the set of outputs is the range.
+Function notation
+Writing f(x) names the function f and its input x. If f(x) = 2x2 − 3, then
+f(4) = 2(16) − 3 = 29.
+The notation f(x) does not mean f times x. It means "the output of f when the input is x."
+Representations and the vertical line test
+A function can be given by a table, an equation, a graph, or words. A graph represents
+a function exactly when every vertical line crosses it at most once; the circle x2 + y2 =
+25 fails, since x = 3 meets it at y = 4 and y = −4. The independent variable is the
+input; the dependent variable is the output.
+A real example
+Gottfried Leibniz introduced the word "function" in the 1690s, and in 1734 Leonhard
+Euler introduced the notation f(x). Euler's notation spread through his textbooks, which
+taught Europe mathematics for a century. The modern definition — any rule assigning
+one output to each input, formula or not — was settled by Peter Gustav Lejeune
+Dirichlet in 1837.
+
+Algebra 1 — A Four-Week Course · 8
+2.4 Slope and rate of change
+How steep a line is, as a number.
+Slope and rate of change
+The slope of a line measures its steepness: the vertical change per unit of horizontal
+change. Between two points (x1, y1) and (x2, y2):
+The slope formula
+m = (y2 − y1) / (x2 − x1).
+Rise over run. From (1, 2) to (4, 11) the slope is 9/3 = 3: y rises 3 for every 1 that x
+increases.
+Reading slope
+Positive slope rises left to right; negative slope falls; zero slope is horizontal; a vertical
+line has undefined slope, since its run is zero. In applications slope is a rate of
+change with units — dollars per hour, miles per gallon, degrees per minute. A function
+has constant rate of change exactly when its graph is a line.
+A real example
+Accessibility standards issued under the Americans with Disabilities Act of 1990 cap
+wheelchair ramps at a slope of 1/12 — one inch of rise for every twelve inches of run. A
+ramp climbing to a 30-inch porch must therefore run at least 30 × 12 = 360 inches, or
+30 feet. Road signs state the same idea as a percent: a 6% grade rises 6 feet per 100
+feet of road.
+2.5 Slope-intercept and point-slope forms
+Writing the equation of a line.
+Slope-intercept and point-slope forms
+Every nonvertical line is the graph of a linear function. Two forms of its equation cover
+nearly every use.
+Slope-intercept form
+y = mx + b.
+Here m is the slope and b is the y-intercept, where the line crosses the y-axis. To
+graph y = −⅔x + 4, plot (0, 4), then move down 2 and right 3. In a model, b is the
+starting value and m the rate: a taxi charging $3 plus $2.50 per mile costs y = 2.5x + 3.
+Point-slope form
+Given a slope m and any point (x1, y1) on the line, y − y1 = m(x − x1). Given two points,
+find m with the slope formula, then use either point. This is the fastest route from data
+to an equation.
+
+Algebra 1 — A Four-Week Course · 9
+A real example
+Water freezes at 0°C and 32°F and boils at 100°C and 212°F. These two points fix a
+line: its slope is (212 − 32)/(100 − 0) = 1.8, and point-slope form through (0, 32) gives
+F = 1.8C + 32. Every thermometer conversion is this line. Setting F = C shows the two
+scales agree at exactly −40°.
+2.6 Standard form, parallel and perpendicular lines
+Other forms, and how lines relate.
+Standard form, parallel and perpendicular lines
+A line can also be written in standard form Ax + By = C. It is the natural form for
+intercepts: set y = 0 to find the x-intercept and x = 0 to find the y-intercept. For 3x +
+4y = 12 these are (4, 0) and (0, 3).
+Special lines
+A horizontal line has equation y = k and slope 0. A vertical line has equation x = h
+and undefined slope; it is not a function.
+Parallel and perpendicular
+Distinct nonvertical lines are parallel exactly when their slopes are equal. They are
+perpendicular exactly when their slopes are negative reciprocals:
+m1 = m2 (parallel), m1 · m2 = −1 (perpendicular).
+The perpendicular to y = 2x + 1 through (4, 0) has slope −½, so y = −½(x − 4).
+A real example
+In 1637 René Descartes published La Géométrie as an appendix to his Discourse on
+Method. It joined algebra to geometry by labeling points with number pairs, so that
+curves become equations and geometric questions become algebra problems. Whether
+two lines are perpendicular — once a matter of compass and straightedge — became a
+one-line check on their slopes.
+2.7 Linear models and scatter plots
+Fitting a line to real, messy data.
+Linear models and scatter plots
+Real data never fall exactly on a line. A scatter plot shows paired data as points; if
+they cluster around a line, a linear model summarizes the trend.
+Correlation and the line of best fit
+The correlation coefficient r, between −1 and 1, measures how closely the points
+hug a line: near ±1 is strong, near 0 is weak. The line of best fit, or least-squares line,
+minimizes the sum of the squared vertical distances from the points to the line:
+
+Algebra 1 — A Four-Week Course · 10
+ŷ = mx + b, minimizing Σ (y − ŷ)2.
+Using and misusing a model
+Predicting inside the range of the data is interpolation; predicting beyond it is
+extrapolation, which is riskier. The slope interprets as a rate and the intercept as a
+starting value — when either makes sense. And correlation is not causation: ice cream
+sales and drownings rise together because both follow summer.
+A real example
+In 1929 Edwin Hubble plotted the speeds of 24 galaxies against their distances. The
+points scattered widely, but a line through them showed speed proportional to
+distance, v = H0d. The slope H0 — the Hubble constant — measures how fast the
+universe is expanding, and its reciprocal estimates the age of the universe. Hubble's
+slope was about 500; the modern value is about 70.
+
+Algebra 1 — A Four-Week Course · 11
+Week 3 — Systems, exponents, and
+polynomials
+Systems by graphing; substitution and elimination; systems of inequalities; laws of
+exponents; scientific notation and exponential functions; polynomial operations; special
+products.
+3.1 Systems of equations by graphing
+Where two lines meet.
+Systems of equations by graphing
+A system of linear equations is two or more equations considered together. A
+solution satisfies every equation at once; for two lines, it is their point of intersection.
+Three possibilities
+•
+Lines with different slopes meet once: one solution.
+•
+Parallel lines never meet: no solution (inconsistent).
+•
+Identical lines meet everywhere: infinitely many solutions (dependent).
+y = 2x − 1, y = −x + 5 ⇒ (2, 3).
+Strengths and limits of graphing
+Graphing shows at a glance which case you are in, but reading a point such as (1.37,
+2.84) off a sketch is imprecise. Use graphs to see and algebra (Lecture 3.2) to compute.
+Break-even problems are the classic application: cost and revenue lines cross where
+profit is zero.
+A real example
+Before satellite navigation, a ship's navigator fixed position by taking compass bearings
+on two known landmarks and drawing each as a line on the chart. The ship lay on both
+lines, so it lay at their intersection — a "fix." A third bearing served as a check: if the
+three lines formed a large triangle rather than meeting at a point, a bearing was
+wrong.
+3.2 Substitution and elimination
+Solving systems exactly.
+Substitution and elimination
+Two algebraic methods solve any system exactly by reducing two equations in two
+unknowns to one equation in one unknown.
+
+Algebra 1 — A Four-Week Course · 12
+Substitution
+Solve one equation for one variable and substitute into the other. From y = 3x and x +
+y = 12: x + 3x = 12, so x = 3 and y = 9. Best when a variable already has coefficient 1.
+Elimination
+Add or subtract the equations, after multiplying one or both by constants, so that one
+variable cancels:
+2x + 3y = 12, 4x − 3y = 6 ⇒ 6x = 18 ⇒ x = 3, y = 2.
+If both variables cancel, a false result such as 0 = 7 means no solution; 0 = 0 means
+infinitely many. Mixture, investment, and speed problems all reduce to systems solved
+this way.
+A real example
+The Chinese text Nine Chapters on the Mathematical Art, compiled around the first
+century CE, devotes its eighth chapter, Fangcheng, to systems of linear equations.
+Coefficients were laid out as columns of counting rods on a board, and one column was
+repeatedly multiplied and subtracted from another until unknowns were eliminated —
+the method Europe would credit to Carl Friedrich Gauss some 1,700 years later.
+3.3 Systems of linear inequalities
+Regions of the plane, and the best point in them.
+Systems of linear inequalities
+The graph of a linear inequality such as y > 2x − 3 is a half-plane: the boundary line,
+dashed for < or > and solid for ≤ or ≥, plus the shaded side that satisfies the
+inequality.
+Graphing a system
+Test a point not on the boundary — (0, 0) when possible — to choose the side to shade.
+The solution of a system is the overlap of all the half-planes, the feasible region.
+Linear programming
+To maximize or minimize a linear quantity such as profit P = ax + by over a feasible
+region bounded by lines, check only the corners:
+the optimum of P = ax + by occurs at a vertex.
+A bakery limited by oven hours and flour finds its most profitable mix of bread and cake
+by evaluating profit at each corner of the region its constraints enclose.
+
+Algebra 1 — A Four-Week Course · 13
+A real example
+In 1945 the economist George Stigler asked for the cheapest diet meeting nine
+nutritional requirements from 77 foods — a system of linear inequalities. With no
+general method he found a near-optimal answer of $39.93 a year at 1939 prices. In
+1947 George Dantzig invented the simplex method, which walks from corner to corner
+of the feasible region; applied to Stigler's problem, it found the true minimum, $39.69.
+3.4 Laws of exponents
+Shorthand for repeated multiplication, and its rules.
+Laws of exponents
+For a positive integer n, an means a multiplied by itself n times; a is the base and n the
+exponent. Counting factors proves the laws.
+The laws
+aman = am+n, am/an = am−n, (am)n = amn.
+Also (ab)n = anbn and (a/b)n = an/bn. But (a + b)n is not an + bn: exponents distribute
+over products, not sums.
+Zero and negative exponents
+Keeping the quotient law true forces the definitions a0 = 1 and a−n = 1/an for a ≠ 0. So
+2−3 = 1/8 and 50 = 1. A negative exponent means reciprocal, never a negative number.
+A real example
+Around 250 BCE Archimedes wrote The Sand Reckoner to show that the number of
+grains of sand needed to fill the universe, though enormous, is finite. Greek numerals
+stopped at a myriad, 10,000, so he built a system of orders of magnitude and proved
+that multiplying numbers adds their orders — in modern terms aman = am+n. His
+estimate came to about 1063 grains.
+3.5 Scientific notation and exponential functions
+Very large, very small, and very fast.
+Scientific notation and exponential functions
+Scientific notation writes a number as a × 10n with 1 ≤ a < 10: the speed of light is
+3.0 × 108 m/s, a hydrogen atom about 1 × 10−10 m wide. The laws of exponents
+multiply such numbers: (2 × 103)(4 × 105) = 8 × 108.
+Exponential functions
+In a linear function a fixed amount is added each step; in an exponential function a
+fixed factor multiplies:
+y = a · bx, b > 0, b ≠ 1.
+
+Algebra 1 — A Four-Week Course · 14
+Here a is the initial value. If b > 1 the function shows growth; if 0 < b < 1, decay.
+Growth and decay rates
+A quantity growing r percent per period is y = a(1 + r)t; decaying, y = a(1 − r)t. $1,000
+at 5% compound interest grows to 1,000(1.05)10 ≈ $1,629 in ten years. Exponential
+growth always eventually overtakes linear growth, however large the linear slope.
+A real example
+In 1965 Gordon Moore, later a co-founder of Intel, observed that the number of
+transistors on a chip had doubled every year, and predicted it would continue; in 1975
+he revised the period to two years. Doubling every two years is y = a · 2t/2. Moore's law
+held for about five decades, carrying chips from dozens of transistors to tens of billions.
+3.6 Polynomials and their operations
+Adding, subtracting, and multiplying expressions.
+Polynomials and their operations
+A polynomial is a sum of terms of the form axn with whole-number exponents, such as
+4x3 − 2x + 7. Its degree is the highest exponent; the term with that exponent is the
+leading term. Polynomials are named by degree (linear, quadratic, cubic) and by
+number of terms (monomial, binomial, trinomial).
+Adding and subtracting
+Combine like terms. To subtract, distribute the minus sign to every term of the second
+polynomial: (5x2 + 3x − 1) − (2x2 − x + 4) = 3x2 + 4x − 5.
+Multiplying
+Multiply every term of the first by every term of the second — the distributive property
+repeated. For two binomials this is FOIL (first, outer, inner, last):
+(x + 3)(x − 5) = x2 − 5x + 3x − 15 = x2 − 2x − 15.
+The degree of a product is the sum of the degrees.
+A real example
+In 1591 the French lawyer François Viète published In Artem Analyticem Isagoge, the
+first work to use letters systematically for both unknowns (vowels) and known
+quantities (consonants). Before Viète every problem was stated with specific numbers;
+afterward a single expression could describe infinitely many problems at once, and a
+polynomial became an object that could itself be manipulated.
+
+Algebra 1 — A Four-Week Course · 15
+3.7 Special products
+Patterns worth memorizing.
+Special products
+Three products occur so often that recognizing them saves time in both directions —
+multiplying now, factoring in Week 4.
+Squares of binomials
+(a + b)2 = a2 + 2ab + b2, (a − b)2 = a2 − 2ab + b2.
+The middle term 2ab is exactly what is forgotten when students write (a + b)2 = a2 +
+b2. Mental arithmetic: 512 = 2,500 + 100 + 1 = 2,601.
+Sum times difference
+(a + b)(a − b) = a2 − b2: the middle terms cancel. So 49 × 51 = 502 − 1 = 2,499.
+Higher powers of a + b follow Pascal's triangle, each row formed by adding adjacent
+entries of the row above: (a + b)3 = a3 + 3a2b + 3ab2 + b3.
+A real example
+The triangle of binomial coefficients is named for Blaise Pascal, whose treatise on it
+was written in 1654. But the Chinese mathematician Yang Hui printed it in 1261,
+crediting Jia Xian, who used it around 1050; in China it is still called Yang Hui's
+triangle. The Persian poet and mathematician Omar Khayyam also knew the binomial
+expansions in the eleventh century.
+
+Algebra 1 — A Four-Week Course · 16
+Week 4 — Factoring, quadratics, and
+radicals
+Factoring by GCF and grouping; factoring trinomials; solving quadratics by factoring;
+graphing quadratic functions; completing the square and the quadratic formula;
+radicals and the Pythagorean theorem; rational expressions; capstone synthesis.
+4.1 Factoring: GCF and grouping
+Running multiplication in reverse.
+Factoring: GCF and grouping
+To factor a polynomial is to write it as a product. Factoring undoes multiplication and
+is the key to solving polynomial equations.
+The greatest common factor
+Always begin by factoring out the greatest common factor of all terms — the largest
+number and highest power of each variable dividing every term:
+6x3 + 9x2 − 15x = 3x(2x2 + 3x − 5).
+Factoring by grouping
+With four terms, group them in pairs, factor each pair, and look for a common binomial
+factor: x3 + 2x2 + 3x + 6 = x2(x + 2) + 3(x + 2) = (x2 + 3)(x + 2). Check any
+factorization by multiplying back.
+A real example
+Around 300 BCE Euclid's Elements, Book VII, gave an algorithm for the greatest
+common divisor of two numbers: repeatedly replace the larger by the remainder when
+it is divided by the smaller, until the remainder is zero. For 252 and 105: 252 = 2 · 105
++ 42, 105 = 2 · 42 + 21, 42 = 2 · 21, so the GCD is 21. The Euclidean algorithm is still
+used billions of times a day inside encryption software.
+4.2 Factoring trinomials
+Finding the two binomials that multiply to a quadratic.
+Factoring trinomials
+A quadratic trinomial ax2 + bx + c often factors into two binomials. Factoring means
+reversing FOIL.
+When a = 1
+Find two numbers whose product is c and whose sum is b:
+x2 + bx + c = (x + p)(x + q), pq = c, p + q = b.
+
+Algebra 1 — A Four-Week Course · 17
+For x2 − x − 12 you need product −12 and sum −1: the pair −4 and 3, so (x − 4)(x + 3).
+A positive c means the two numbers share b's sign; a negative c means they have
+opposite signs.
+When a ≠ 1, and special patterns
+Find two numbers with product ac and sum b, split the middle term, and factor by
+grouping: 6x2 + 11x + 4 has ac = 24, split as 3 and 8, giving (3x + 4)(2x + 1).
+Recognize the special products of Lecture 3.7 in reverse: a2 − b2 = (a + b)(a − b), and
+a2 ± 2ab + b2 = (a ± b)2. A polynomial with no factorization over the integers is prime.
+A real example
+Factoring is easy to check and hard to do: multiplying two large primes takes a
+computer a moment, but recovering them from their product can take longer than the
+age of the universe. In 1977 Ron Rivest, Adi Shamir, and Leonard Adleman built the
+RSA encryption system on exactly this asymmetry. Every secure web connection rests
+on the difficulty of factoring.
+4.3 Solving quadratics by factoring
+The zero-product property.
+Solving quadratics by factoring
+A quadratic equation has the form ax2 + bx + c = 0 with a ≠ 0. Its solutions are also
+called roots or zeros.
+The zero-product property
+If a product is zero, at least one factor is zero:
+ab = 0 ⇒ a = 0 or b = 0.
+So to solve a quadratic, move everything to one side, factor, and set each factor equal
+to zero. From x2 − x − 12 = 0: (x − 4)(x + 3) = 0, so x = 4 or x = −3.
+The classic error
+The property works only for zero. From (x − 2)(x − 3) = 6 you may not conclude x − 2
+= 6: expand to x2 − 5x = 0, then factor as x(x − 5) = 0, so x = 0 or x = 5. Dividing both
+sides by x loses the solution x = 0 — factor instead.
+A real example
+A Babylonian clay tablet from about 1800 BCE, now in the British Museum as BM
+13901, poses the problem: "I added the area and the side of my square: 3/4." In modern
+terms x2 + x = 3/4, which factors as (x − 1/2)(x + 3/2) = 0. The scribe's recipe produces
+the answer 1/2. Negative lengths made no sense, so the second root, −3/2, was never
+considered.
+
+Algebra 1 — A Four-Week Course · 18
+4.4 Graphing quadratic functions
+Parabolas: vertex, axis, and intercepts.
+Graphing quadratic functions
+The graph of f(x) = ax2 + bx + c is a parabola. It opens upward if a > 0 and downward
+if a < 0; a larger |a| makes it narrower.
+Vertex and axis of symmetry
+The parabola is symmetric about a vertical line through its vertex, the lowest or
+highest point:
+x = −b / (2a).
+For f(x) = x2 − 4x + 1 the axis is x = 2 and the vertex is (2, f(2)) = (2, −3), the
+minimum.
+Vertex form and intercepts
+Vertex form f(x) = a(x − h)2 + k shows the vertex (h, k) directly, as a shift of y = x2.
+The y-intercept is c; the x-intercepts are the roots of the equation f(x) = 0. A parabola
+may cross the x-axis twice, touch it once at the vertex, or miss it entirely — matching
+two, one, or no real solutions.
+A real example
+In 1638 Galileo Galilei published Two New Sciences, proving that a projectile's path is
+a parabola: horizontal motion at constant speed combined with vertical fall that grows
+with the square of time. A ball thrown upward at 48 feet per second from 6 feet has
+height h = −16t2 + 48t + 6. The vertex, at t = 48/32 = 1.5 seconds, gives the peak
+height, 42 feet.
+4.5 Completing the square and the quadratic formula
+Solving every quadratic.
+Completing the square and the quadratic formula
+Many quadratics do not factor over the integers. Two methods solve them all.
+Completing the square
+Since (x + k)2 = x2 + 2kx + k2, add the square of half the x-coefficient to both sides.
+For x2 + 6x = 7: add 9 to get (x + 3)2 = 16, so x + 3 = ±4 and x = 1 or x = −7. The
+same move converts standard form to vertex form.
+The quadratic formula
+Completing the square on ax2 + bx + c = 0 in general gives
+x = [−b ± √(b2 − 4ac)] / (2a).
+The discriminant b2 − 4ac decides the number of real solutions: positive, two; zero,
+one; negative, none, since no real number has a negative square.
+
+Algebra 1 — A Four-Week Course · 19
+A real example
+Around 820 CE Muhammad ibn Musa al-Khwarizmi, working at the House of Wisdom in
+Baghdad, solved x2 + 10x = 39 by literally completing a square: a square of side x with
+two rectangles 5 by x attached, then a missing corner of area 25 filled in to make a
+larger square of area 64 and side 8, so x = 3. The title of his book, al-jabr, gave us the
+word algebra, and his name gave us algorithm.
+4.6 Radicals and the Pythagorean theorem
+Square roots and right triangles.
+Radicals and the Pythagorean theorem
+The principal square root √a of a ≥ 0 is the nonnegative number whose square is a.
+Numbers such as 49 are perfect squares; the square root of any other positive integer
+is irrational.
+Simplifying radicals
+√(ab) = √a · √b, √(a/b) = √a / √b.
+Factor out perfect squares: √72 = √36 · √2 = 6√2. Add only like radicals, 3√5 + 4√5 =
+7√5. Rationalize a denominator by multiplying top and bottom by the radical: 1/√2 =
+√2/2. Note √(a + b) ≠ √a + √b.
+The Pythagorean theorem
+In a right triangle with legs a and b and hypotenuse c, a2 + b2 = c2. It gives the
+distance formula d = √[(x2 − x1)2 + (y2 − y1)2]. A 3-4-5 triangle is right; carpenters
+check a square corner by measuring 3 feet, 4 feet, and a 5-foot diagonal.
+A real example
+A Babylonian tablet from about 1800 BCE, YBC 7289 at Yale, shows a square with its
+diagonals and the number 1;24,51,10 in base 60 — about 1.41421296. The true value of
+√2 is 1.41421356..., so the scribe was correct to six decimal places. The tablet shows
+that the diagonal of a unit square is √2, a Pythagorean fact known more than a
+thousand years before Pythagoras.
+4.7 Rational expressions
+Algebraic fractions.
+Rational expressions
+A rational expression is a quotient of polynomials, such as (x + 1)/(x2 − 4). It is
+undefined wherever its denominator is zero — here at x = 2 and x = −2 — and those
+values are excluded from its domain.
+
+Algebra 1 — A Four-Week Course · 20
+Simplifying and operating
+Factor numerator and denominator, then cancel common factors — never common
+terms:
+(x2 − 9)/(x2 + 3x) = (x + 3)(x − 3) / [x(x + 3)] = (x − 3)/x.
+Multiply and divide as with numerical fractions. To add or subtract, rewrite over a
+common denominator.
+Rational equations and inverse variation
+Multiply both sides by the least common denominator to clear fractions, solve, and then
+discard any extraneous solution that makes an original denominator zero. When y =
+k/x, y varies inversely with x: doubling one halves the other. Work problems combine
+rates: if one pipe fills a tank in 3 hours and another in 6, together they fill 1/3 + 1/6 =
+1/2 tank per hour, so 2 hours.
+A real example
+Every camera focuses by a rational equation. A lens of focal length f images an object
+at distance do at distance di behind it, where 1/f = 1/do + 1/di. For a 50 mm lens and a
+subject 2,000 mm away, 1/di = 1/50 − 1/2,000 = 39/2,000, so di ≈ 51.3 mm. Autofocus
+moves the lens those 1.3 mm.
+4.8 Capstone synthesis
+One idea behind everything: equals done to equals stay equal.
+Capstone synthesis
+Step back, and the entire course reduces to a single sentence: algebra replaces
+numbers with letters and solves for the unknown by transforming equations without
+changing their solutions.
+The one principle
+a = b ⇒ f(a) = f(b).
+Everything you have learned elaborates this statement:
+•
+Expressions and equations are rewritten and solved by equivalent steps (Week 1).
+•
+Functions and their graphs turn equations into pictures, and lines into rates (Week
+2).
+•
+Systems, exponents, and polynomials extend the same moves to harder objects
+(Week 3).
+•
+Factoring and the quadratic formula solve every quadratic equation (Week 4).
+Where algebra goes next
+Algebra 2 extends these ideas to complex numbers, higher-degree polynomials,
+logarithms, and conic sections. Geometry, trigonometry, statistics, and calculus all rest
+on everything here — calculus, in particular, is algebra applied to limits.
+
+Algebra 1 — A Four-Week Course · 21
+A real example
+The quadratic formula has cousins for degree 3 and 4, published by Gerolamo Cardano
+in 1545. For degree 5 mathematicians searched for three centuries, until Niels Henrik
+Abel proved in 1824 that no such formula in radicals exists. Évariste Galois, who died in
+a duel at twenty, explained exactly which equations can be solved — founding abstract
+algebra, the subject that grew from the question of when x can be isolated.
+
+Algebra 1 — A Four-Week Course · 22
+Practice problems
+A sample of the graded work in the course: two homeworks plus the midterm and final.
+Answers follow at the end.
+Homework 1.1 — Expressions and equations
+Short-answer problems on expressions and linear equations. Write each answer as
+the key formula or value in symbols using the on-screen math keyboard (use the
+Algebra tab for exponents, fractions, and radicals).
+1.
+Write the distributive property for a(b + c).
+2.
+Evaluate 3 + 4 · 2^2.
+3.
+Solve 3x − 7 = 11.
+4.
+Solve 5x + 3 = 2x − 9.
+Homework 1.2 — Formulas and proportions
+Use the math keyboard for fractions, exponents, and radicals.
+1.
+Solve d = rt for t.
+2.
+Solve F = (9/5)C + 32 for C.
+3.
+Write the cross-product rule for a/b = c/d.
+4.
+Solve 3/7.50 = 8/x.
+Midterm — Weeks 1 & 2
+Cumulative midterm on expressions, equations, inequalities, functions, and linear
+graphs. 60 minutes. Math keyboard available; pasting disabled.
+1.
+Solve −3x > 12.
+2.
+Solve |2x − 1| = 7.
+3.
+Rewrite |A| < k as a compound inequality.
+4.
+Evaluate f(4) for f(x) = 2x^2 − 3.
+5.
+Write the slope formula through (x_1, y_1) and (x_2, y_2).
+6.
+Write the slope-intercept form of a line.
+7.
+Write the point-slope form of a line through (x_1, y_1).
+8.
+Write the condition on slopes m_1 and m_2 for perpendicular lines.
+
+Algebra 1 — A Four-Week Course · 23
+Final Exam — Algebra 1
+Cumulative final covering all four weeks. 90 minutes. Math keyboard available;
+pasting disabled.
+1.
+Solve the system 2x + 3y = 12, 4x − 3y = 6.
+2.
+Write the product rule for exponents, a^m · a^n.
+3.
+Write the definition of a^(−n).
+4.
+Write the general exponential function with initial value a.
+5.
+Expand (a + b)^2.
+6.
+Factor a^2 − b^2.
+7.
+Write the zero-product property.
+8.
+Write the axis of symmetry of y = ax^2 + bx + c.
+9.
+Write the quadratic formula.
+10. Write the Pythagorean theorem for legs a, b and hypotenuse c.
+Answer key
+Homework 1.1 — Expressions and equations:
+1.
+a(b + c) = ab + ac
+2.
+19
+3.
+x = 6
+4.
+x = −4
+Homework 1.2 — Formulas and proportions:
+1.
+t = d / r
+2.
+C = (5/9)(F − 32)
+3.
+ad = bc
+4.
+x = 20
+Midterm — Weeks 1 & 2:
+1.
+x < −4
+2.
+x = 4 or x = −3
+3.
+−k < A < k
+4.
+f(4) = 29
+5.
+m = (y_2 − y_1) / (x_2 − x_1)
+6.
+y = mx + b
+7.
+y − y_1 = m(x − x_1)
+8.
+m_1 · m_2 = −1
+
+Algebra 1 — A Four-Week Course · 24
+Final Exam — Algebra 1:
+1.
+x = 3, y = 2
+2.
+a^m · a^n = a^(m+n)
+3.
+a^(−n) = 1 / a^n
+4.
+y = a · b^x
+5.
+(a + b)^2 = a^2 + 2ab + b^2
+6.
+a^2 − b^2 = (a + b)(a − b)
+7.
+ab = 0 ⇒ a = 0 or b = 0
+8.
+x = −b / (2a)
+9.
+x = [−b ± √(b^2 − 4ac)] / (2a)
+10. a^2 + b^2 = c^2

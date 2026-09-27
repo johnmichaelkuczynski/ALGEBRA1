@@ -1,0 +1,180 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "k9ub7M-_NtEMTP4gQFmL8"
+uri = "file://artifacts/qr-course-demo/public/audio/bg_music.mp3"
+type = "audio"
+title = "background music"
+logical_id = "58e6fa47-b0ed-4e50-b3a0-6710d06f7ab5"
+
+[[outputs]]
+id = "zpoa4kJaFwLQ67_UaLoks"
+uri = "file://BLUEPRINT.md"
+type = "text"
+title = "Finance — App Blueprint"
+logical_id = "d3992402-2c65-461d-b1d7-84425f24e842"
+
+[[outputs]]
+id = "Qy_X2LBlIn6rZvu3zMM8q"
+uri = "file://artifacts/economics-tiktok/public/audio/vo_01.mp3"
+type = "audio"
+title = "Economics course intro"
+description = "Text-to-speech audio: Economics 101 starts with a clear four-week plan. Open Week One and choose a lesson."
+logical_id = "8725034c-45ff-4360-a718-b9dfdc2226aa"
+
+[[outputs]]
+id = "Mzz9UEO49vrDRGEw0wIzD"
+uri = "file://artifacts/economics-tiktok/public/audio/vo_02.mp3"
+type = "audio"
+title = "Economics narration 2"
+description = "Text-to-speech audio: Switch explanation length when you need more detail, without losing your place."
+logical_id = "89a27c22-517d-4e19-be87-9625c100ee9d"
+
+[[outputs]]
+id = "Wafdtf6jwfng6lXGsJiZP"
+uri = "file://artifacts/economics-tiktok/public/audio/vo_03.mp3"
+type = "audio"
+title = "Economics narration 3"
+description = "Text-to-speech audio: Ask the tutor why a high price creates a surplus, and see the reasoning unfold."
+logical_id = "e0ad0be9-325a-4057-8ead-2ab4e3ebeb5a"
+
+[[outputs]]
+id = "5KxLZDS7a2vS5lmFj2yfu"
+uri = "file://artifacts/economics-tiktok/public/audio/vo_05.mp3"
+type = "audio"
+title = "Economics narration 5"
+description = "Text-to-speech audio: Work through supply and demand, submit your answer, and learn why it works."
+logical_id = "a93d98f7-9682-4245-9ef3-a32f5f005220"
+
+[[outputs]]
+id = "jYjDx7P-im6K3w5akvIm3"
+uri = "file://artifacts/economics-tiktok/public/audio/vo_06.mp3"
+type = "audio"
+title = "Economics narration 6"
+description = "Text-to-speech audio: Review assignments with useful feedback, then pick up exactly where you left off."
+logical_id = "7662fbe4-f122-4af3-a64d-1fb15ae9d61a"
+
+[[outputs]]
+id = "-7okgu65uNyqfOb_5a2wD"
+uri = "file://artifacts/economics-tiktok/public/audio/vo_04.mp3"
+type = "audio"
+title = "Economics narration 4"
+description = "Text-to-speech audio: Track your course progress and see which topics still need practice."
+logical_id = "5dc991dd-c0ba-485a-a0e4-7a33ee066b36"
+
+[[outputs]]
+id = "sC6LV5psSAAw1EJPgD9Fq"
+uri = "file://attached_assets/generated_audio/precalc-narration-2.mp3"
+type = "audio"
+title = "precalc narration 2"
+description = "Text-to-speech audio: I'm opening the course dashboard. Here the four weeks are organized into lectures and assignments. Progress and practice counts come from the running app."
+logical_id = "341bf835-dc51-427e-a17e-b4f37f15f6e0"
+
+[[outputs]]
+id = "d_hO0JeEqVfR44mTS_63U"
+uri = "file://attached_assets/generated_audio/precalc-narration-5.mp3"
+type = "audio"
+title = "precalc narration 5"
+description = "Text-to-speech audio: Now I'm opening the first homework. The same on-screen keyboard is available in the answer field, so entering formulas doesn't require memorizing special characters. Homework an…"
+logical_id = "1ff4d27d-ecdd-43be-92b3-dc733ae69d83"
+
+[[outputs]]
+id = "77XiO-B0YL_kATbK8DOZU"
+uri = "file://attached_assets/generated_audio/precalc-narration-4.mp3"
+type = "audio"
+title = "precalc narration 4"
+description = "Text-to-speech audio: I'm using the built-in math keyboard to enter a square root in a function, then asking the tutor for its domain. The answer appears next to the lesson."
+logical_id = "a333a74c-1998-43ad-8d4d-f2c4b10ef663"
+
+[[outputs]]
+id = "oivSYFhRIuHxlpNc5CQDM"
+uri = "file://attached_assets/generated_audio/precalc-narration-3.mp3"
+type = "audio"
+title = "precalc narration 3"
+description = "Text-to-speech audio: Week one covers functions and graphs. I'm opening Functions and notation. The lesson is on the left, and the tools for asking questions and practicing are on the right."
+logical_id = "0244fa38-1a58-469e-a8d1-76f8797f92e4"
+
+[[outputs]]
+id = "r6HXQtEcZ_oCpqV5WTxWZ"
+uri = "file://attached_assets/generated_audio/precalc-narration-1.mp3"
+type = "audio"
+title = "precalc narration 1"
+description = "Text-to-speech audio: This is Precalculus, a four-week course you can open without signing in. The course map lists twenty-nine topics, from functions and graphs to trigonometry and vectors."
+logical_id = "7364df96-a559-4670-85b0-98e32a6c4f07"
+
+[[outputs]]
+id = "A5S6Acc8hysqIN21FjdEm"
+uri = "file://artifacts/qr-course-demo/exports/precalculus-live-app-demo.mp4"
+type = "video"
+title = "Precalculus — live app walkthrough (MP4)"
+description = "Download the 78-second, 1280×720 recording with masculine narration and no music."
+logical_id = "80c724bb-d496-475a-86a3-7c0bd1b166ed"
+content_hash = "sha256:dafac815bcea34b09767ca058cd7b279b7c6b8ae5d3c082e9b997208a51deb85"
+size = 3001749
+mtime_ms = 1790454076766
+storage_uri = "gcs://replit-rams-assets-riker/rams/assets/repl:cf5fc722-8e6b-495d-9ba4-25cdeccf1997/80c724bb-d496-475a-86a3-7c0bd1b166ed/281988db-94ea-488b-b69b-100654941eb1"
+storage_version_token = "1790454393890487"
+content_type = "video/mp4"
+
+[[outputs]]
+id = "o3Y1ZrO-2_3nJJ5ZDGUxf"
+uri = "file://artifacts/qr-course-demo/public/audio/voice-01.mp3"
+type = "audio"
+title = "algebra walkthrough 1"
+description = "Text-to-speech audio: This is Algebra 1. Start with a clear, four-week path through twenty-nine short lessons."
+logical_id = "1dcae891-5c59-46f9-bf56-9b8eed90d6cc"
+
+[[outputs]]
+id = "rz3mwgXvrd4GTVcj1kANw"
+uri = "file://artifacts/qr-course-demo/public/audio/voice-04.mp3"
+type = "audio"
+title = "algebra walkthrough 4"
+description = "Text-to-speech audio: Read a focused explanation and a real example. If you need more detail, adjust the lesson depth or ask a question."
+logical_id = "05c75096-80e9-404c-acd3-57c793ba576a"
+
+[[outputs]]
+id = "HiEwBkgAHZ6I4nNIIWeYf"
+uri = "file://artifacts/qr-course-demo/public/audio/voice-02.mp3"
+type = "audio"
+title = "algebra walkthrough 2"
+description = "Text-to-speech audio: The dashboard shows your lessons, assignments, and progress in one place."
+logical_id = "b6f4c7de-a7d9-49a0-99a2-9bfd0ffdcb47"
+
+[[outputs]]
+id = "uVAzQg3oDh5-E0f1jqLP5"
+uri = "file://artifacts/qr-course-demo/public/audio/voice-05.mp3"
+type = "audio"
+title = "algebra walkthrough 5"
+description = "Text-to-speech audio: Use the math keyboard to put symbols into a question. The tutor responds with a step-by-step explanation tied to the lesson."
+logical_id = "c52b388a-2229-424f-a775-5c9ac9b34c6a"
+
+[[outputs]]
+id = "p_6TuWMBpAitQvK7mwTVl"
+uri = "file://artifacts/qr-course-demo/public/audio/voice-03.mp3"
+type = "audio"
+title = "algebra walkthrough 3"
+description = "Text-to-speech audio: Choose a week and open a lesson. Real numbers and operations build the foundation for solving equations."
+logical_id = "d8a959cc-0693-46c8-a384-b5bb2e53a545"
+
+[[outputs]]
+id = "ZT5FxLON0-qOEEDL567JB"
+uri = "file://artifacts/qr-course-demo/public/audio/voice-06.mp3"
+type = "audio"
+title = "algebra walkthrough 6"
+description = "Text-to-speech audio: The same keyboard is here for homework and exams, making it easier to write formulas and solve problems directly in the app."
+logical_id = "87c6c727-391b-41cb-8807-2c1c2c1e6b23"
+
+[[outputs]]
+id = "aidXbxGU3aer1Trl0hHgz"
+uri = "file://artifacts/qr-course-demo/public/algebra-1-app-walkthrough.mp4"
+type = "video"
+title = "Download the production Algebra 1 video"
+description = "80-second, 1280×720 MP4 of the real working app. Full-screen app footage, masculine voiceover describing the actions, no music or marketing overlays."
+logical_id = "aa9f5eaa-9e5f-4f82-ae78-c5cd7a4c4594"
+content_hash = "sha256:7128210236829835b0254d27b93724f82d15495ad84fe452cc487a17cd1277a4"
+size = 3302682
+mtime_ms = 1790461446067
+storage_uri = "gcs://replit-rams-assets-riker/rams/assets/repl:691ba331-7791-4763-8f4a-3cbb0121afeb/aa9f5eaa-9e5f-4f82-ae78-c5cd7a4c4594/7170f28f-6c78-4d26-b9f3-604caa7d5c52"
+storage_version_token = "1790463160536472"
+content_type = "video/mp4"

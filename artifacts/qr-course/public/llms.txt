@@ -1,0 +1,12 @@
+# Algebra 1 — A Four-Week Course
+
+> A free, self-paced Algebra 1 course with 29 short lectures, unlimited practice, and an interactive tutor. No account needed.
+
+## Course weeks
+
+- [Week 1 — Expressions and linear equations](/weeks/1)
+- [Week 2 — Inequalities, functions, and linear graphs](/weeks/2)
+- [Week 3 — Systems, exponents, and polynomials](/weeks/3)
+- [Week 4 — Factoring, quadratics, and radicals](/weeks/4)
+
+The course also includes two homeworks, an 8-question midterm, and a 10-question final. Individual lessons are available at `/lectures/{id}`.
